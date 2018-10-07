@@ -14,9 +14,6 @@ First-person world in Unity with models from Blender
 
 ![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss6.png)
 
-![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss7.png)
-
-
 
 
 
