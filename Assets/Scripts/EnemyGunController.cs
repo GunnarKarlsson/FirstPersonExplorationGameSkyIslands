@@ -10,12 +10,10 @@ public class EnemyGunController : MonoBehaviour {
 	private bool canShoot = false;
 
 	public void StartShooting() {
-		//canShoot = true;
 		InvokeRepeating ("Shoot", Random.Range(2.0f, 5.0f), Random.Range(2.0f, 6.0f));
 	}
 
 	public void StopShooting() {
-		//canShoot = false;
 		CancelInvoke ();
 	}
 
@@ -30,9 +28,7 @@ public class EnemyGunController : MonoBehaviour {
 	}
 
 	void Shoot() {
-		//if (canShoot) {
 		GameObject bullet = Instantiate (theBullet, transform.position, transform.rotation) as GameObject;
 		AudioSource.PlayClipAtPoint (audioClip, transform.position);
-		//}
 	}
 }
