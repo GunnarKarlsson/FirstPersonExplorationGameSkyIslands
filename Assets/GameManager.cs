@@ -5,40 +5,16 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
-	public GameObject enemyOne;
-
-	private List<GameObject> enemies;
-
 	public static GameManager instance = null;
 
 	//Public API
 
 	public void startGame() {
 		Debug.Log ("StartGame()");
-		Debug.Log ("enemy count: " + enemies.Count);
-		foreach(GameObject enemy in enemies)
-		{
-			enemy.SetActive (true);
-		}
-
-		Invoke ("enemiesStartShooting", 2.0f);
-	}
-
-	private void enemiesStartShooting() {
-		foreach(GameObject enemy in enemies)
-		{
-			EnemyGunController enemyGun = enemy.transform.GetChild (0).GetComponent<EnemyGunController> () as EnemyGunController;
-			enemyGun.StartShooting ();
-		}
 	}
 
 	public void GameOver() {
 		Debug.Log ("GameOver()");
-		foreach(GameObject enemy in enemies)
-		{
-			EnemyGunController enemyGun = enemy.transform.GetChild (0).GetComponent<EnemyGunController> () as EnemyGunController;
-			enemyGun.StopShooting ();
-		}
 	}
 
 	//Private API
@@ -61,8 +37,6 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		enemies = new List<GameObject> ();
-		enemies.Add (enemyOne);
 		startGame ();
 	}
 
