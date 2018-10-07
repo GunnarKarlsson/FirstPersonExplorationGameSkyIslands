@@ -1,9 +1,12 @@
 # SkyIslands
-First-person world in Unity. Models made in Blender. 
+First-person world in Unity.
++ WASD / Arrows to move. Space to jump. 
 + Collect the coins. 
 + Don't fall into the depth.
 + Beware the skeletons. 
-+ Use ferry or bridges to move between sky islands.
++ Use ferry or bridges to move between sky islands. To board a ferry, jump onto it.
+
+ Models made in Blender. 
 
 # Screen shots
 ![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss1.png)
