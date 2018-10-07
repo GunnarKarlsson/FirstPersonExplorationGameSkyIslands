@@ -1,4 +1,4 @@
-# SkyIslands
+# Sky Islands
 First-person world in Unity.
 + WASD / Arrows to move. Space to jump. 
 + Collect the coins. 
