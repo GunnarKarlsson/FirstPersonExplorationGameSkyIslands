@@ -1,6 +1,6 @@
 # Sky Islands
 
-Sky Islands is a FPS survival game for desktop, made in Unity. Game is developed and tested on Mac. Assets are created in Blender.
+Sky Islands is a first-person survival game for desktop, made in Unity. Game is developed and tested on Mac. Assets are created in Blender.
 
 # How to Play
 + WASD / Arrows to move. Space to jump.
@@ -11,7 +11,7 @@ Sky Islands is a FPS survival game for desktop, made in Unity. Game is developed
 
 # Build and Run
 
-Unity is required to open, play, and build this project. It was made with Unity 5.5.2. Blender is not needed to run the game.
+Unity is required to open, play, and build this project. It was made with Unity 5.5.2. 
 
 + Install Unity 5.5.2. Unity Hub can install older editors from the [Unity download archive](https://unity.com/releases/editor/archive).
 + Open this folder as a Unity project.
