@@ -1,6 +1,6 @@
-# Sky Islands
+# Sky Islands First-Person Exploration Game
 
-Sky Islands is a first-person survival game for desktop, made in Unity. Game is developed and tested on Mac. Assets are created in Blender.
+Sky Islands is a first-person exploration game for desktop, made in Unity. Game is developed and tested on Mac. Assets are created in Blender.
 
 # How to Play
 + WASD / Arrows to move. Space to jump.
