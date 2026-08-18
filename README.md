@@ -1,21 +1,34 @@
 # Sky Islands
-First-person world in made Unity and Blender.
-+ WASD / Arrows to move. Space to jump. 
-+ Collect the coins. 
+
+Sky Islands is a FPS survival game for desktop, made in Unity. Game is developed and tested on Mac. Assets are created in Blender.
+
+# How to Play
++ WASD / Arrows to move. Space to jump.
++ Collect the coins.
 + Don't fall into the depth.
-+ Beware the skeletons. 
++ Beware the skeletons.
 + Use ferry or bridges to move between sky islands. To board a ferry, jump onto it.
 
-# Screen shots
-![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss4.png)
+# Build and Run
 
-![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss6.png)
+Unity is required to open, play, and build this project. It was made with Unity 5.5.2. Blender is not needed to run the game.
 
-![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss2.png)
++ Install Unity 5.5.2. Unity Hub can install older editors from the [Unity download archive](https://unity.com/releases/editor/archive).
++ Open this folder as a Unity project.
++ Open `Assets/Scene/Scene1` and press Play in the editor.
 
-![Screen shots](https://github.com/GunnarKarlsson/SkyIslands/raw/master/ss3.png)
+To build a desktop app: File > Build Settings, choose PC, Mac & Linux Standalone, set the target platform to Mac OS X, then Build.
 
+A Mac build is also included as `GameWorldStairs.app`.
 
+This project is licensed under the [MIT License](LICENSE).
 
+# Screenshots
 
+![Screenshot](docs/ss4.png)
 
+![Screenshot](docs/ss6.png)
+
+![Screenshot](docs/ss2.png)
+
+![Screenshot](docs/ss3.png)
